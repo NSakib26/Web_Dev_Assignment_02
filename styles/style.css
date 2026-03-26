@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+#gradient-txt{
+    background: linear-gradient(to top right,#F7E93F 0%, #fb09b2ee 51%, #9100F8 100% );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    
+
+ }
+ /* shared style */
+ p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+ }
+ .title-txt{
+    color: #FFFFFF;
+    font-size: 3.75rem;
+    font-weight: 700;
+ }
+ .heading-txt{
+    color: #FFFFFF;
+    font-size: 2.75rem;
+    font-weight: 600;
+ }
+
+ 
+ .gradient-btn{
+    background: linear-gradient(to top right,#F7E93F 0%, #fb09b2ee 51%, #9100F8 100% );
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+ }
+nav{
+    background-color: #1a0b2e;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+nav ul{
+    display: flex;
+     gap: 2rem;
+}
+nav ul li {
+    list-style: none;
+
+   
+}
+nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.hero-section{
+    background-color: #1A0B2E;
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.hero-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 550px;
+    text-align: center;
+
+}
+.hero-container img{
+
+    padding-top: 0px;
+    /* background-image: url(../assets/microphone.png);
+    background-position: center;
+    background-repeat: no-repeat; */
+    
+
+}
+.hero-text{
+   padding-top: 40px;
+   /* display: inline;
+   gap: 24px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.podcast-section{
+    background-color: #1A0B2E;
+   
+    
+}
+.podcast-container{    
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.podcast-container hr{
+    color: #ffffffe7;
+    height: 0.5px;
+    background-color: none;
+}
+.podcast-description h2{
+   padding-bottom: 16px;
+}
+.podcast-description p{
+   padding-bottom: 80px;
+}
+
+.podcast-achivement{
+    padding-top: 80px;
+    display: grid;
+    grid-template-rows: repeat(4, 1f);
+
+}
+.achivement-container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+ .achivement h1{
+    text-align: center;
+    color:#00FF88;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 16px;
+ }
+ achivement p{
+    text-align: center;
+    color:#fafafa;
+    font-size: 1rem;
+    font-weight: 600;
+ }
